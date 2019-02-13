@@ -7,12 +7,14 @@ import { Component , Input , OnInit } from '@angular/core';
 })
 export class PostlistcomponentComponent implements OnInit {
   
-  @Input() posts: string[];
-  
-  //console.log(monTableau);
-  
-  //@Input() postArray;
 
+  @Input() postTitle: string;
+  @Input() postContent: string;
+  @Input() postLoveIts: number;
+  @Input() postDate: Date;
+  
+  @Input() lesposts;
+  
   constructor() { }
 
   ngOnInit() {

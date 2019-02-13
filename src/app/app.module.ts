@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PostlistcomponentComponent } from './postlistcomponent/postlistcomponent.component';
 import { PostlistitemcomponentComponent } from './postlistitemcomponent/postlistitemcomponent.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PostlistitemcomponentComponent } from './postlistitemcomponent/postlist
     PostlistitemcomponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
